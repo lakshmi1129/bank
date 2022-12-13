@@ -1,0 +1,16 @@
+
+#trans{
+    width: 100px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 50%;
+}
+#transaction{
+   margin-left: 200px;
+}
+#export{
+    margin-left: 200px;
+}

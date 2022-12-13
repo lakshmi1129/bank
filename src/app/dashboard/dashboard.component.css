@@ -1,0 +1,18 @@
+section{
+    /* background-color: black; */
+    color: black;
+}
+.collapse{
+    border-style: none;
+    color: black;
+    background-color: black;
+}
+#screen{
+    width: 80%;
+    height: 70%;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.hide{
+    opacity: 0;
+}

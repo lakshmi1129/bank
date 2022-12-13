@@ -1,0 +1,27 @@
+<div class="container mt-5  " *ngIf="item && !serverMsg">
+    <div class="row text-center ">
+        <div class="col-3"></div>
+        <div class="col-6 border p-5 rounded">
+            <div class="h4">
+                Are you Sure, Do you want to delete the account {{item}}?
+            </div>
+            <button class="btn btn-outline-success" (click)="deleteChild()">Yes</button> &nbsp;
+            <button class="btn btn-outline-danger" (click)="cancel()">no</button>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+
+<!-- Delete account popup -->
+<div class="container mt-5" *ngIf="!item && serverMsg">
+    <div class="row text-center">
+        <div class="col">
+            <img class="w-25 d-block m-auto"
+                src="https://miro.medium.com/max/1400/1*CsJ05WEGfunYMLGfsT2sXA.gif"
+                alt="No Image">
+            <h4 class="text-danger">Please Wait ....Your Account is Deleting......</h4>
+        </div>
+
+    </div>
+</div>
